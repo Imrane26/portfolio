@@ -1,0 +1,49 @@
+<svg width="960" height="640" viewBox="0 0 960 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="640" fill="#08100F"/>
+  <path d="M0 0H960V640H0V0Z" fill="url(#soft)"/>
+  <rect x="70" y="70" width="820" height="500" rx="30" fill="#0D1B19" stroke="#2B5047"/>
+  <rect x="70" y="70" width="820" height="58" rx="30" fill="#122723"/>
+  <circle cx="110" cy="99" r="7" fill="#FF6B6B"/>
+  <circle cx="134" cy="99" r="7" fill="#F6C85F"/>
+  <circle cx="158" cy="99" r="7" fill="#39D6A3"/>
+  <rect x="198" y="93" width="134" height="12" rx="6" fill="#A8BBB4" opacity="0.45"/>
+  <rect x="790" y="91" width="58" height="16" rx="8" fill="#39D6A3"/>
+  <rect x="104" y="162" width="220" height="356" rx="24" fill="#F7FAF8"/>
+  <rect x="126" y="188" width="94" height="14" rx="7" fill="#0F9F78"/>
+  <rect x="126" y="230" width="158" height="10" rx="5" fill="#52635E" opacity="0.35"/>
+  <rect x="126" y="254" width="132" height="10" rx="5" fill="#52635E" opacity="0.22"/>
+  <rect x="126" y="300" width="176" height="80" rx="16" fill="#EAF2EF"/>
+  <rect x="144" y="324" width="74" height="12" rx="6" fill="#10201D"/>
+  <rect x="144" y="350" width="120" height="9" rx="4.5" fill="#52635E" opacity="0.32"/>
+  <rect x="126" y="402" width="78" height="62" rx="14" fill="#DDEBE6"/>
+  <rect x="224" y="402" width="78" height="62" rx="14" fill="#DDEBE6"/>
+  <rect x="362" y="162" width="226" height="356" rx="24" fill="#10231F" stroke="#31574D"/>
+  <rect x="392" y="192" width="94" height="14" rx="7" fill="#39D6A3"/>
+  <rect x="392" y="232" width="154" height="12" rx="6" fill="#A8BBB4" opacity="0.5"/>
+  <rect x="392" y="260" width="126" height="12" rx="6" fill="#A8BBB4" opacity="0.28"/>
+  <rect x="392" y="318" width="66" height="58" rx="14" fill="#173B34"/>
+  <rect x="480" y="318" width="66" height="58" rx="14" fill="#173B34"/>
+  <rect x="392" y="404" width="154" height="16" rx="8" fill="#A8BBB4" opacity="0.32"/>
+  <rect x="392" y="438" width="112" height="16" rx="8" fill="#A8BBB4" opacity="0.2"/>
+  <rect x="630" y="162" width="226" height="356" rx="24" fill="#0B1514" stroke="#31574D"/>
+  <rect x="660" y="194" width="90" height="16" rx="8" fill="#F0C572"/>
+  <rect x="660" y="246" width="154" height="42" rx="12" fill="#122723"/>
+  <rect x="682" y="262" width="88" height="10" rx="5" fill="#A8BBB4" opacity="0.48"/>
+  <rect x="660" y="312" width="154" height="42" rx="12" fill="#122723"/>
+  <rect x="682" y="328" width="106" height="10" rx="5" fill="#A8BBB4" opacity="0.48"/>
+  <rect x="660" y="378" width="154" height="42" rx="12" fill="#122723"/>
+  <rect x="682" y="394" width="72" height="10" rx="5" fill="#A8BBB4" opacity="0.48"/>
+  <rect x="682" y="448" width="78" height="18" rx="9" fill="#39D6A3"/>
+  <path d="M326 306H360" stroke="#39D6A3" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <path d="M590 306H628" stroke="#78A6FF" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <text x="122" y="546" fill="#A8BBB4" font-family="Arial, sans-serif" font-size="16">Public website</text>
+  <text x="397" y="546" fill="#A8BBB4" font-family="Arial, sans-serif" font-size="16">Laravel API</text>
+  <text x="675" y="546" fill="#A8BBB4" font-family="Arial, sans-serif" font-size="16">Backoffice</text>
+  <defs>
+    <linearGradient id="soft" x1="105" y1="45" x2="850" y2="595" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39D6A3" stop-opacity="0.14"/>
+      <stop offset="0.55" stop-color="#78A6FF" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#F0C572" stop-opacity="0.07"/>
+    </linearGradient>
+  </defs>
+</svg>

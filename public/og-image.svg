@@ -1,0 +1,20 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#08100F"/>
+  <path d="M0 0H1200V630H0V0Z" fill="url(#bg)"/>
+  <rect x="760" y="120" width="300" height="320" rx="20" fill="#10231F" stroke="#294A42"/>
+  <rect x="800" y="164" width="170" height="16" rx="8" fill="#39D6A3"/>
+  <rect x="800" y="210" width="220" height="12" rx="6" fill="#A8BBB4" opacity="0.56"/>
+  <rect x="800" y="242" width="190" height="12" rx="6" fill="#A8BBB4" opacity="0.38"/>
+  <rect x="800" y="308" width="95" height="92" rx="14" fill="#173B34"/>
+  <rect x="915" y="308" width="95" height="92" rx="14" fill="#172F45"/>
+  <text x="120" y="235" fill="#39D6A3" font-family="Arial, sans-serif" font-size="26" letter-spacing="5">PORTFOLIO</text>
+  <text x="120" y="318" fill="#EEF8F4" font-family="Arial, sans-serif" font-size="72" font-weight="700">Imrane Mouzaria</text>
+  <text x="120" y="376" fill="#A8BBB4" font-family="Arial, sans-serif" font-size="34">Computer Engineering Student &amp; Software Developer</text>
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 70) rotate(143) scale(760 590)">
+      <stop stop-color="#39D6A3" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#78A6FF" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#08100F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

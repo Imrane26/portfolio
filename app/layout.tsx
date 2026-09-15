@@ -1,0 +1,54 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://YOUR_PORTFOLIO_DOMAIN"),
+  title: "Imrane Mouzaria | Computer Engineering Student & Software Developer",
+  description:
+    "Portfolio of Imrane Mouzaria, a Computer Engineering student at EMSI Marrakech focused on software development, web technologies, and information systems.",
+  authors: [{ name: "Imrane Mouzaria" }],
+  creator: "Imrane Mouzaria",
+  openGraph: {
+    title: "Imrane Mouzaria | Computer Engineering Student & Software Developer",
+    description:
+      "Computer Engineering student focused on software development, web technologies, and information systems.",
+    url: "https://YOUR_PORTFOLIO_DOMAIN",
+    siteName: "Imrane Mouzaria Portfolio",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Imrane Mouzaria portfolio preview"
+      }
+    ],
+    locale: "en_US",
+    type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Imrane Mouzaria | Computer Engineering Student & Software Developer",
+    description:
+      "Computer Engineering student focused on software development, web technologies, and information systems.",
+    images: ["/og-image.svg"]
+  },
+  icons: {
+    icon: "/favicon.svg"
+  },
+  robots: {
+    index: true,
+    follow: true
+  }
+};
+
+export default function RootLayout({
+  children
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body>{children}</body>
+    </html>
+  );
+}
