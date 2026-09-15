@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://portfolio-three-gray-65.vercel.app"),
+  metadataBase: new URL("https://imrane-mouzaria.vercel.app"),
   title: "Imrane Mouzaria | Computer Engineering Student & Software Developer",
   description:
     "Portfolio of Imrane Mouzaria, a Computer Engineering student at EMSI Marrakech focused on software development, web technologies, and information systems.",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "Imrane Mouzaria | Computer Engineering Student & Software Developer",
     description:
       "Computer Engineering student focused on software development, web technologies, and information systems.",
-    url: "https://portfolio-three-gray-65.vercel.app",
+    url: "https://imrane-mouzaria.vercel.app",
     siteName: "Imrane Mouzaria Portfolio",
     images: [
       {

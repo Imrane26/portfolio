@@ -30,4 +30,4 @@ Project repository and demo links are stored in `data/projects.ts`.
 2. Import the repository in Vercel.
 3. Keep the default Next.js framework settings.
 4. Deploy.
-5. Production URL: `https://portfolio-three-gray-65.vercel.app`.
+5. Production URL: `https://imrane-mouzaria.vercel.app`.
