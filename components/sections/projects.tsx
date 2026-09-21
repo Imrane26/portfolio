@@ -13,7 +13,7 @@ export function Projects() {
   return (
     <AnimatedSection
       id="projects"
-      className="section-padding relative overflow-hidden border-y border-[var(--line)] bg-[rgba(255,255,255,0.03)]"
+      className="section-padding relative overflow-hidden border-y border-[var(--line)]"
     >
       <div className="container-shell">
         <div className="grid gap-8 lg:grid-cols-[0.72fr_1fr] lg:items-end">
@@ -54,14 +54,21 @@ export function Projects() {
                 </div>
 
                 <div className={`relative overflow-hidden ${featured ? "h-80" : "h-64"}`}>
+                  <div className="absolute inset-0 bg-white" />
                   <Image
                     src={project.image}
                     alt={project.imageAlt}
                     fill
-                    className="object-cover transition duration-700 group-hover:scale-[1.04]"
+                    className={`p-8 transition duration-700 group-hover:scale-[1.035] ${
+                      project.imageFit === "contain" ? "object-contain" : "object-cover"
+                    } ${featured ? "sm:p-10" : "sm:p-9"}`}
                     sizes="(min-width: 1024px) 50vw, 100vw"
                   />
-                  <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_48%,rgba(7,9,13,0.84))]" />
+                  {project.imageFit === "contain" ? (
+                    <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/5" />
+                  ) : (
+                    <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_48%,rgba(7,9,13,0.84))]" />
+                  )}
                   {project.spotlightLabel ? (
                     <div className="absolute bottom-5 left-5 rounded-md border border-[rgba(255,255,255,0.12)] bg-[var(--accent-fill)] px-3 py-2 text-xs font-semibold text-[var(--accent-ink)]">
                       {project.spotlightLabel}

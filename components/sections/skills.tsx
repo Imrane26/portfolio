@@ -11,7 +11,7 @@ export function Skills() {
   return (
     <AnimatedSection
       id="skills"
-      className="section-padding border-y border-[var(--line)] bg-[rgba(255,255,255,0.018)]"
+      className="section-padding border-y border-[var(--line)]"
     >
       <div className="container-shell">
         <SectionHeading

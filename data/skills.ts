@@ -22,8 +22,8 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     title: "Databases",
-    description: "Relational modeling, querying, and local persistence.",
-    skills: ["MySQL", "SQL", "SQLite"]
+    description: "Relational and NoSQL databases used for structured application data.",
+    skills: ["MySQL", "SQL", "SQLite", "MongoDB", "NoSQL"]
   },
   {
     title: "Testing & Code Quality",

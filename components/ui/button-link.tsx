@@ -7,7 +7,7 @@ type ButtonLinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
 
 const variantClasses = {
   primary:
-    "border border-[rgba(255,255,255,0.12)] bg-[var(--accent-fill)] text-[var(--accent-ink)] hover:-translate-y-0.5 hover:bg-[var(--accent-fill-hover)] hover:shadow-[0_18px_44px_rgba(23,111,97,0.24)]",
+    "border border-[rgba(255,255,255,0.12)] bg-[var(--accent-fill)] text-[var(--accent-ink)] hover:-translate-y-0.5 hover:bg-[var(--accent-fill-hover)] hover:shadow-[0_18px_44px_rgba(0,122,255,0.24)]",
   secondary:
     "border-[var(--line-strong)] bg-[rgba(255,255,255,0.04)] text-[var(--foreground)] hover:-translate-y-0.5 hover:border-[var(--accent)] hover:bg-[var(--panel-strong)]",
   ghost:

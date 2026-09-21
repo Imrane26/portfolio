@@ -2,8 +2,8 @@ import { Blocks, Code2, DatabaseZap, Palette } from "lucide-react";
 
 export const services = [
   {
-    title: "Web Development",
-    description: "Design and development of modern, responsive web applications and interfaces.",
+    title: "Digital Solutions",
+    description: "Design and development of practical digital solutions aligned with user and business needs.",
     icon: Code2
   },
   {
@@ -12,13 +12,13 @@ export const services = [
     icon: Blocks
   },
   {
-    title: "APIs & Backend",
-    description: "Development and integration of REST APIs and backend services.",
+    title: "Information Systems",
+    description: "Analysis and implementation of systems that organize data, processes, and application workflows.",
     icon: DatabaseZap
   },
   {
-    title: "UI/UX & Frontend",
-    description: "Creation of modern, responsive interfaces focused on usability and user experience.",
+    title: "Product Experience",
+    description: "Creation of clear, usable experiences that connect technical decisions with real user expectations.",
     icon: Palette
   }
 ];

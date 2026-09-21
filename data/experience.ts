@@ -35,22 +35,23 @@ export const experiences: Experience[] = [
     ]
   },
   {
-    role: "Frontend Internship — IAIMH",
-    organization: "International Association of Innovation in Management and Health — Marrakech",
+    role: "Full-Stack Internship — City Hall of Marrakech",
+    organization: "City Hall of Marrakech",
+    period: "March 2024",
     description:
-      "Contributed to the development and improvement of a web platform designed to present the association's activities, courses, and services.",
-    technologies: ["React.js", "CSS", "Figma", "Git", "GitHub"],
+      "Designed a geoportal with React.js for managing and visualizing geographic data.",
+    technologies: ["React.js", "GIS Data", "Interactive Maps"],
     responsibilities: [
-      "Frontend development.",
-      "Interface implementation.",
-      "Responsive design for desktop, tablet, and mobile.",
-      "Bug identification and documentation.",
-      "UI/UX improvements."
+      "Designed a geoportal interface for geographic data visualization.",
+      "Integrated interactive maps.",
+      "Worked with GIS-oriented data.",
+      "Contributed to the organization and presentation of spatial information."
     ]
   },
   {
-    role: "Internship — Municipality of Marrakech",
-    organization: "Municipality of Marrakech",
+    role: "Volunteer — Wilaya of Marrakech",
+    organization: "Wilaya of Marrakech",
+    period: "October 2023",
     description:
       "Participated in a project involving the processing and entry of data concerning citizens affected by the Marrakech earthquake.",
     responsibilities: [

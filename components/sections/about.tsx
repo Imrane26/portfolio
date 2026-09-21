@@ -2,9 +2,9 @@ import { AnimatedSection } from "@/components/ui/animated-section";
 import { SectionHeading } from "@/components/ui/section-heading";
 
 const profilePoints = [
-  "Frontend and backend development foundations",
-  "REST API integration and database-backed applications",
-  "User-centered interfaces with maintainable component structure"
+  "Digital development and information systems mindset",
+  "Ability to analyze needs and design practical software solutions",
+  "Engineering approach focused on structure, quality, and usability"
 ] as const;
 
 export function About() {
@@ -25,7 +25,7 @@ export function About() {
             <div className="mt-8 grid gap-6 border-t border-[var(--line)] pt-8 md:grid-cols-2">
               <p className="text-base leading-8 text-[var(--muted)]">
                 My academic and professional experience has allowed me to work on
-                software applications, modern web interfaces, REST APIs, databases,
+                software applications, information systems, data-driven features,
                 and user-centered digital solutions.
               </p>
               <p className="text-base leading-8 text-[var(--muted)]">
