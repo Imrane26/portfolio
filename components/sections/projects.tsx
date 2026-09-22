@@ -13,22 +13,14 @@ export function Projects() {
   return (
     <AnimatedSection
       id="projects"
-      className="section-padding relative overflow-hidden border-y border-[var(--line)]"
+      className="section-padding relative overflow-hidden"
     >
       <div className="container-shell">
-        <div className="grid gap-8 lg:grid-cols-[0.72fr_1fr] lg:items-end">
-          <SectionHeading
-            eyebrow="Projects"
-            title="Project work with real product scope, not just isolated screens."
-            description="A selected set of academic and internship projects across full-stack platforms, information systems, and interface development."
-          />
-          <div className="hidden justify-self-end border border-[var(--line)] bg-[var(--panel)] p-5 lg:block">
-            <p className="max-w-xs text-sm leading-7 text-[var(--muted)]">
-              Featured projects are presented as case studies because recruiters should
-              quickly understand scope, stack, and responsibility.
-            </p>
-          </div>
-        </div>
+        <SectionHeading
+          eyebrow="Projects"
+          title="Project work with real product scope, not just isolated screens."
+          description="A selected set of academic and internship projects across full-stack platforms, information systems, and interface development."
+        />
 
         <motion.div
           className="mt-14 grid gap-6 lg:grid-cols-2"

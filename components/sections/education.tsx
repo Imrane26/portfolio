@@ -10,7 +10,7 @@ export function Education() {
   return (
     <AnimatedSection
       id="education"
-      className="section-padding border-y border-[var(--line)]"
+      className="section-padding"
     >
       <div className="container-shell">
         <div className="max-w-6xl">

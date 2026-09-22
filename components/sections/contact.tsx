@@ -24,7 +24,7 @@ export function Contact() {
   return (
     <AnimatedSection
       id="contact"
-      className="section-padding border-t border-[var(--line)]"
+      className="section-padding"
     >
       <div className="container-shell">
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">

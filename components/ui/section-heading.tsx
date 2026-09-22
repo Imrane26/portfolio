@@ -12,7 +12,7 @@ export function SectionHeading({
   align = "left"
 }: SectionHeadingProps) {
   return (
-    <div className={align === "center" ? "mx-auto max-w-4xl text-center" : "max-w-4xl"}>
+    <div className={align === "center" ? "mx-auto max-w-4xl text-center" : "max-w-6xl"}>
       <div
         className={`mb-5 flex items-center gap-4 ${
           align === "center" ? "justify-center" : ""

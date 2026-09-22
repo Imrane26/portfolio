@@ -9,7 +9,7 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
-    role: "Summer Internship — Full-Stack Web Development",
+    role: "Internship — Full-Stack Web Development",
     organization: "Faculty of Sciences and Techniques of Marrakech",
     period: "July 2026 — September 2026",
     description:
@@ -32,6 +32,21 @@ export const experiences: Experience[] = [
       "Worked on a Laravel backoffice for managing institutional content.",
       "Implemented responsive layouts for desktop, tablet, and mobile.",
       "Improved the overall platform structure and user experience."
+    ]
+  },
+  {
+    role: "Frontend Internship — IAIMH",
+    organization: "International Association of Innovation in Management and Health — Marrakech",
+    period: "June 2025 — September 2025",
+    description:
+      "Contributed to the development and improvement of a web platform for the association.",
+    technologies: ["React.js", "CSS", "Figma", "Git", "GitHub"],
+    responsibilities: [
+      "Frontend development.",
+      "Interface implementation.",
+      "Responsive design for desktop, tablet, and mobile.",
+      "Bug identification and documentation.",
+      "UI/UX improvements."
     ]
   },
   {

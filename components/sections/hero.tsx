@@ -23,22 +23,18 @@ export function Hero() {
   const reduceMotion = useReducedMotion();
 
   return (
-    <section id="home" className="relative isolate min-h-screen overflow-hidden pt-28">
+    <section id="home" className="relative isolate overflow-hidden pt-28">
       <div
         className="absolute inset-x-0 top-0 -z-10 h-[74vh] bg-[linear-gradient(135deg,rgba(255,255,255,0.045),transparent_42%)]"
         aria-hidden
       />
-      <div
-        className="absolute left-1/2 top-24 -z-10 h-[44rem] w-[72rem] -translate-x-1/2 rotate-[-8deg] border border-[var(--line)] opacity-60"
-        aria-hidden
-      />
 
-      <div className="container-shell grid min-h-[calc(100vh-7rem)] gap-14 py-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-start lg:py-10">
+      <div className="container-shell grid gap-14 pb-14 pt-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-start lg:pb-16 lg:pt-10">
         <motion.div
           initial={reduceMotion ? false : { opacity: 0, y: 26 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="relative z-10 lg:pt-4"
+          className="relative z-10"
         >
           <div className="mb-8 flex items-center gap-4">
             <span className="h-px w-12 bg-[var(--accent)]" aria-hidden />
@@ -126,7 +122,7 @@ export function Hero() {
           initial={reduceMotion ? false : { opacity: 0, y: 28, rotate: 1.5 }}
           animate={{ opacity: 1, y: 0, rotate: 0 }}
           transition={{ duration: 0.85, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
-          className="relative mx-auto h-[520px] w-full max-w-xl self-start sm:h-[600px] lg:-mt-2 lg:h-[590px] lg:max-w-none"
+          className="relative mx-auto h-[520px] w-full max-w-xl self-start sm:h-[600px] lg:h-[590px] lg:max-w-none"
         >
           <div
             className="absolute left-0 top-0 h-60 w-52 border-l border-t border-[var(--accent)]/70"

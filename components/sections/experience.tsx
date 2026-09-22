@@ -11,16 +11,11 @@ export function Experience() {
   return (
     <AnimatedSection id="experience" className="section-padding">
       <div className="container-shell">
-        <div className="grid gap-8 lg:grid-cols-[0.7fr_1fr] lg:items-end">
-          <SectionHeading
-            eyebrow="Experience"
-            title="Internships and practical work presented with a clear, realistic scope."
-          />
-          <p className="max-w-md justify-self-end text-base leading-8 text-[var(--muted)]">
-            The timeline focuses on concrete contribution areas without overstating
-            responsibility or seniority.
-          </p>
-        </div>
+        <SectionHeading
+          eyebrow="Experience"
+          title="Internships and practical work presented with a clear, realistic scope."
+          description="The timeline focuses on concrete contribution areas without overstating responsibility or seniority."
+        />
 
         <motion.div
           className="mt-14 grid gap-5"
