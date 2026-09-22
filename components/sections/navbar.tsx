@@ -5,7 +5,6 @@ import { Download, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { navItems } from "@/data/navigation";
 import { contactHref } from "@/lib/placeholders";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
@@ -61,7 +60,6 @@ export function Navbar() {
         </div>
 
         <div className="relative z-10 hidden items-center gap-3 lg:flex">
-          <ThemeToggle />
           <a
             href={contactHref.cv}
             className="focus-ring inline-flex min-h-10 items-center gap-2 rounded-md border border-[rgba(255,255,255,0.12)] bg-[var(--accent-fill)] px-4 py-2 text-sm font-semibold text-[var(--accent-ink)] transition hover:-translate-y-0.5 hover:bg-[var(--accent-fill-hover)]"
@@ -72,7 +70,6 @@ export function Navbar() {
         </div>
 
         <div className="relative z-10 flex items-center gap-2 lg:hidden">
-          <ThemeToggle />
           <button
             type="button"
             className="focus-ring inline-flex size-10 items-center justify-center rounded-md border border-[var(--line)] bg-[rgba(245,245,247,0.055)] backdrop-blur-xl"
